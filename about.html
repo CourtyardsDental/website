@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Courtyards Dental Center</title>
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0/favicon-16x16.png">
+        <link rel="manifest" href="favicon_package_v0/site.webmanifest">
+        <link rel="mask-icon" href="favicon_package_v0/safari-pinned-tab.svg" color="#603cba">
+        <meta name="msapplication-TileColor" content="#603cba">
+        <meta name="theme-color" content="#ffffff">
+        <!-- css -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- required to add fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+        <!-- hamburger menu -->
+        <script src="https://kit.fontawesome.com/9dea9f1489.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body id="about_page">
+        <!-- for the header -->
+        <header id="navigation">
+            <div class="container">
+                <div class="navtoggle" id="myNavtoggle">
+                    <a href="index.html">
+                        <img src="img/logo_black.png" alt="Courtyards Dental Center Logo" class="logo">
+                    </a>
+                    <nav class="circleBehind">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#top">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="#contact" class="button">Contact Us</a></li>
+                            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+                                <i class="fas fa-bars"></i></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        
+        <main id="top">
+            <!-- block for header (separated for styling)-->
+            <div class="greeting">
+                <div>
+                    <h1>Our Clinic</h1>
+                </div>
+            </div>
+            
+            <!-- block for clinic info -->
+            <div class="v_container">
+                <div>
+                    <!-- slideshow pictures -->
+                    <div class="image-container">
+                        <img id="gallery-image" src="front.jpg" alt="Image 1">
+                        <button id="prev-button">
+                            <picture>
+                                <source srcset="img/chevron_left.png" media="(max-width:767px)">
+                                <img src="img/chevron_left.png" alt="Previous">
+                            </picture>
+                        </button>
+                        <button id="next-button">
+                            <picture>
+                                <source srcset="img/chevron_right.png" media="(max-width:767px)">
+                                <img src="img/chevron_right.png" alt="Next">
+                            </picture>
+                        </button>
+                    </div>
+
+                   <!-- row for columns-->
+                   <div id="story">
+                        <div class="row v_container container white_space">
+                            <!-- column 1 -->
+                            <div class="col-lg-7 container">
+                                <h2>Courtyards Dental Center</h2>
+                                <p>Courtyards Dental Center was opened in 2017 to serve any and all patients in Maple, and the greater Vaughan area. We provide an extensive amount of dental services for all ages and needs.
+                                </p>
+                                <p>Book your appointment today!
+                                </p>
+                                <a href="#contact" class="button center">CONTACT US</a>
+                            </div>
+                            <div class="col-lg-5 container">
+                                <picture>
+                                    <source srcset="img/outside_clinic.jpg" media="(max-width:767px)">
+                                    <img src="img/outside_clinic.jpg" alt="Outside view of clinic" class="provider_rounded">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h1>Our Dentist</h1>
+            </div>
+            
+            <!-- block for dentist content -->
+            <div>
+                <div>
+                    <!-- row for columns-->
+                    <div class="container v_container">
+                        <!-- column 1 -->
+                        <div class="col-lg-5 container">
+                            <!-- <span> -->
+                                <picture>
+                                    <source srcset="img/dentist.jpg" media="(max-width:767px)">
+                                    <img src="img/dentist.jpg" alt="Dr. Annahvathany" class="rounded">
+                                </picture>
+                            <!-- </span> -->
+                        </div>
+                        <!-- column 2 -->
+                        <div class="col-lg-7 container">
+                            <h2>Dr. Annahvathany Sivakumaran</h2>
+                            <p>
+                                Dr. Anna earned her <span class="purple">Doctor of Dental Medicine degree</span> at the University of British Columbia, Canada (2012). Prior to this, she completed her <span class="purple">Honours Bachelor degree for Dental Surgery</span> at University of Peradeniya, Sri Lanka (2002). <!-- with distinctions in surgery, prosthetic dentistry, restorative dentistry, and oral medicine. -->
+                            </p>
+                            <p>
+                                Following her degrees, Dr. Anna gained experience as an assistant lecturer in Oral Medicine and Radiology, and as an associate dentist in several dental clinics, before opening Courtyards Dental Center.
+                            </p>
+                            <p>
+                                Dr. Anna prioritizes listening to her patients and carries sound diagnostic judgement. She is a certified member of the <span class="purple">Royal College of Dental Surgeons of Ontario</span> and the <span class="purple">Ontario Dental Association</span>. She also completed the <span class="purple">FORCE Orthodontic Program</span>.
+                            </p>
+                            <h2>Awards</h2>
+                            <ul>
+                                <li>Quintessence Award for Clinical Achievement in Periodontics (2012)</li>
+                                <li>Professor M. A. Brito Muthunayagam Gold Medal (2002)</li>
+                                <li>Dr. Ranjan Abeysinghe Prize for Dental Surgery (2002)</li>
+                                <li>Sri Lankan Dental Association Award (2002)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer id="contact">
+            <div class="container" style="padding: 40px 0 10px 0;">
+                <h2 class="center">Contact Us</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <p>We are happy to answer any questions. <br>Give us a call!</p>
+                        <ul>
+                            <li>
+                                <span class="icon-with-text" style="align-items: center;">
+                                    <i class="fa-solid fa-phone icon" style="color: #000000;"></i>
+                                    <p>(905) 553 - 5266</p>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="icon-with-text" style="align-items: first baseline;">
+                                    <i class="fa-solid fa-location-dot icon" style="color: #000000;"></i>
+                                    <p>2396 Major Mackenzie Drive W.,<br>Unit #6, Vaughan, ON L6A 4Y1</p>
+                                </span>
+                            </li>
+                        </ul>
+                        <div class="container">
+                            <a href="mailto:courtyardsdental_at_gmail.com" class="button contact">Send an Email</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 style="margin: 0;">Clinic Hours</h3>
+                        <table border="1">
+                            <!-- <tr>
+                                <th>Header 1</th>
+                                <th>Header 2</th>
+                                <th>Header 3</th>
+                            </tr> -->
+                            <tr>
+                                <td>Monday</td>
+                                <td> 10am - 6pm</td>
+                            </tr>
+                            <tr>
+                                <td>Tuesday</td>
+                                <td> 10am - 6pm</td>
+                            </tr>
+                            <tr>
+                                <td>Wednesday</td>
+                                <td> 10am - 6pm</td>
+                            </tr>
+                            <tr>
+                                <td>Thursday</td>
+                                <td> CLOSED</td>
+                            </tr>
+                            <tr>
+                                <td>Friday</td>
+                                <td> 10am - 6pm</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td> 10am - 4pm</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td> CLOSED</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="google-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.0792006302063!2d-79.51950782369553!3d43.85418707109335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b28d8ee0ff13f%3A0xf2a5d09ad2e4084d!2sCourtyards%20Dental%20Center%20-%20Dr.%20Annahvathany%20Sivakumaran%2C%20DMD!5e0!3m2!1sen!2sca!4v1692977421797!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                       </div>
+                    </div>
+                </div>
+                <!-- <div class="center">
+                    <p>Copyright Statement</p>
+                </div> -->
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+
+</html>
